@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Math&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Noto+Sans+Math&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Noto+Sans+Math&family=Rubik+Bubbles&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+    <title>page DARAT</title>
+</head>
+<style>
+
+body {
+        margin: 0;
+        padding: 0;
+        background-image: url(bghutan.PNG);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    
+}
+
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 45, 128, 0.507);
+    color: rgb(250, 249, 249);
+    width: 100%;
+    top:0;
+    padding: 1px 0 1px;
+    margin-left: -10px;
+    z-index: 999;
+}
+
+.button {
+   display: inline-block;
+   padding: 10px 20px;
+   font-family: "Rubik Bubbles", system-ui;
+   text-shadow: 2px 2px 4px black;
+   font-size: 25px;
+   text-align: center;
+   text-decoration: none;
+   cursor: pointer;
+   border: none;
+   border-radius: 40px;
+   background-color: rgb(1, 131, 252);
+   color: white;
+   margin-left: 30px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.button-container {
+    margin-right: 30px;
+}
+h1 {
+    font-family: "Bungee Spice", sans-serif;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-right: 250px;
+    text-shadow: 2px 2px 4px black;
+}
+.room-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.room-item {
+    background-color:whitesmoke;
+    margin: 0 20px;
+    left: calc(100% + 10px);
+    text-align: left;
+    color: black;
+    padding: 20px;
+    border-radius: 50px;
+    width: 500px;   
+}
+h3{
+    text-align: center;
+    font-family: "Rubik Moonrocks", sans-serif;
+    color: black;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+img {
+    max-width: 100%;
+    border-radius: 50px;
+    width: 500px;
+    height: 400px;
+}
+.audio{
+    margin-bottom: -25px;
+    margin-top: -200px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+p{
+    text-align: left;
+    font-size: 17px;
+    margin-bottom: 35px;
+    margin-top: 25px;
+
+}
+footer{
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    background-color: rgba(0, 45, 128, 0.507);
+    color: #fff;
+    text-align: center;
+    padding: 1px 0 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+</style>
+
+<body>
+  <div class="container">
+    <header>
+        <div class="button-container">
+            <a class="button" href="file:///D:/PKK/menu/page1.html">BACK</a>
+        </div>
+        <h1>MACAM-MACAM HEWAN DARAT</h1>
+    </header>
+    <div class="room-list">
+        <div class="room-item">
+            <img src="gambardomba.jpg" alt="image">
+            <div class="text">
+            <h3>DOMBA</h3>
+            <p class="room-price">NAMA HEWAN : DOMBA</p>
+            <p class="room-price">SUARA:   
+                <audio class="audio" controls>
+                    <source src="suaradomba.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </p>
+            <p class="room-price"> (HEWAN INI JINAK DAN DAPAT DIPELIHARA)</p>
+            </div>        
+        </div>
+
+        <div class="room-item">
+            <img src="gambarkucing.jpg" alt="image">
+            <div class="text">
+            <h3>KUCING</h3>
+            <p class="room-price">NAMA HEWAN :KUCING </p>
+            <p class="room-price">SUARA:
+                <audio class="audio" controls>
+                    <source src="suarakucing.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </p>
+            <p class="room-price">(KUCING ADALAH HEWAN YANG LUCU DAN IMUT)</p>
+            </div>        
+        </div>
+    </div>
+    <div class="room-list">
+        <div class="room-item">
+            <img src="gambargajah.jpg" alt="image">
+            <div class="text">
+            <h3>GAJAH</h3>
+            <p class="room-price">NAMA HEWAN :GAJAH</p>
+            <p class="room-price">SUARA:
+                <audio class="audio" controls>
+                    <source src="suaragajah.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </p>
+            <p class="room-price">(GAJAH ADALAH HEWAN YANG SANGAT BESAR)</p>
+            </div>        
+        </div>
+
+        <div class="room-item">
+            <img src="gambarjerapah.jpg" alt="image">
+            <div class="text">
+            <h3>JERAPAH</h3>
+            <p class="room-price">NAMA HEWAN :JERAPAH</p>
+            <p class="room-price">SUARA:
+                <audio class="audio" controls>
+                    <source src="suarajerapah.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </p>
+            <p class="room-price">(JERAPAH MEMPUNYAI LEHER YANG SANGAT PANJANG)</p>
+            </div>        
+        </div>
+    </div>
+    <div class="room-list">
+        <div class="room-item">
+            <img src="gambarmonyet.jpg" alt="image">
+            <div class="text">
+            <h3>MONYET</h3>
+            <p class="room-price">NAMA HEWAN :MONYET</p>
+            <p class="room-price">SUARA:
+                <audio class="audio" controls>
+                    <source src="suaramonyet.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </p>
+            <p class="room-price">(MONYET MEMPUNYAI EKOR DAN HIDUP DIHUTAN)</p>
+            </div>        
+        </div>
+
+        <div class="room-item">
+            <img src="gambarsinga.jpg" alt="image">
+            <div class="text">
+            <h3>SINGA</h3>
+            <p class="room-price">NAMA HEWAN :SINGA</p>
+            <p class="room-price">SUARA:
+                <audio class="audio" controls>
+                    <source src="suarasinga.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </p>
+            <p class="room-price">(SINGA JUGA DISEBUT SEBAGAI RAJA HUTAN)</p>
+            </div>        
+        </div>
+    </div>
+    <div class="room-list">
+        <div class="room-item">
+            <img src="gambarayam.jpg" alt="image">
+            <div class="text">
+            <h3>AYAM</h3>
+            <p class="room-price">NAMA HEWAN :AYAM</p>
+            <p class="room-price">SUARA:   
+                <audio class="audio" controls>
+                    <source src="suaraayam.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </p>
+            <p class="room-price">(AYAM ADALAH HEWAN BANYAK DIPELIHARA ORANG)</p> 
+            </div>        
+        </div>
+
+        <div class="room-item">
+            <img src="gambarbebek.jpg" alt="image">
+            <div class="text">
+            <h3>BEBEK</h3>
+            <p class="room-price">NAMA HEWAN :BEBEK</p>
+            <p class="room-price">SUARA:
+                <audio class="audio" controls>
+                    <source src="suarabebek.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </p>
+            <p class="room-price">(BEBEK BISA BERENANG DAN TIDAK BASAH)</p>
+            </div>        
+        </div>
+    </div>
+    <div class="room-list">
+        <div class="room-item">
+            <img src="gambarkatak.jpg" alt="image">
+            <div class="text">
+            <h3>KATAK</h3>
+            <p class="room-price">NAMA HEWAN :KATAK</p>
+            <p class="room-price">SUARA:   
+                <audio class="audio" controls>
+                    <source src="suarakatak.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </p>
+            <p class="room-price">(KATAK BISA HIDUP DI DARAT DAN DI AIR)</p>
+            </div>        
+        </div>
+
+        <div class="room-item">
+            <img src="gambarular.jpg" alt="image">
+            <div class="text">
+            <h3>ULAR</h3>
+            <p class="room-price">NAMA HEWAN :ULAR</p>
+            <p class="room-price">SUARA:
+                <audio class="audio" controls>
+                    <source src="suaraular.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </p>
+            <p class="room-price">(ULAR ADALAH HEWAN YANG BERBAHAYA DAN MEMPUNYAI RACUN)</p>
+            </div>        
+        </div>
+    </div>
+    <div class="room-list">
+        <div class="room-item">
+            <img src="gambarsapi.jpg" alt="image">
+            <div class="text">
+            <h3>SAPI</h3>
+            <p class="room-price">NAMA HEWAN :SAPI</p>
+            <p class="room-price">SUARA:   
+                <audio class="audio" controls>
+                    <source src="suarasapi.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </p>
+            <p class="room-price">(SAPI ADALAH HEWAN YANG BISA MENNGHASILKAN SUSU)</p>
+            </div>        
+        </div>
+
+        <div class="room-item">
+            <img src="gambarkuda.jpg" alt="image">
+            <div class="text">
+            <h3>KUDA</h3>
+            <p class="room-price">NAMA HEWAN :KUDA</p>
+            <p class="room-price">SUARA:
+                <audio class="audio" controls>
+                    <source src="suarakuda.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </p>
+            <p class="room-price">(KUDA DIGUNAKAN PADA TRANSPORTASI ANDONG)</p>
+            </div>        
+        </div>
+    </div>
+    <div class="room-list">
+        <div class="room-item">
+            <img src="gambarrusa.jpg" alt="image">
+            <div class="text">
+            <h3>RUSA</h3>
+            <p class="room-price">NAMA HEWAN :RUSA</p>
+            <p class="room-price">SUARA:
+                <audio class="audio" controls>
+                    <source src="suararusa.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </p>
+            <p class="room-price">(RUSA MEMPUNYAI TANDUK YANG BESAR DAN BERCABANG)</p>
+            </div>        
+        </div>
+
+        <div class="room-item">
+            <img src="gambarzebra.jpg" alt="image">
+            <div class="text">
+            <h3>ZEBRA</h3>
+            <p class="room-price">NAMA HEWAN :ZEBRA</p>
+            <p class="room-price">SUARA:
+                <audio class="audio" controls>
+                    <source src="suarazebra.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </p>
+            <p class="room-price">(ZEBRA MEMPUNYAI WARNA TUBUH YANG BELANG)</p>
+            </div>        
+        </div>
+    </div>
+    <div class="room-list">
+        <div class="room-item">
+            <img src="gambaranjjing.jpg" alt="image">
+            <div class="text">
+            <h3>ANJING</h3>
+            <p class="room-price">NAMA HEWAN :ANJING</p>
+            <p class="room-price">SUARA:
+                <audio class="audio" controls>
+                    <source src="suaraanjing.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </p>
+            <p class="room-price">(ANJING ADALAH HEWAN PELIHARAAN YANG PINTAR)</p>
+            </div>        
+        </div>
+
+        <div class="room-item">
+            <img src="gambarsrigala.jpg" alt="image">
+            <div class="text">
+            <h3>SERIGALA</h3>
+            <p class="room-price">NAMA HEWAN :SERIGALA</p>
+            <p class="room-price">SUARA:
+                <audio class="audio" controls>
+                    <source src="suaraserigala.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </p>
+            <p class="room-price">(SERIGALA ADALAH HEWAN BUAS YANG MENAKUTKAN)</p>
+            </div>        
+        </div>
+    </div>
+    <div class="room-list">
+        <div class="room-item">
+            <img src="gambarharimau.jpg" alt="image">
+            <div class="text">
+            <h3>HARIMAU</h3>
+            <p class="room-price">NAMA HEWAN :HARIMAU</p>
+            <p class="room-price">SUARA:   
+                <audio class="audio" controls>
+                    <source src="suaraharimau.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </p>
+            <p class="room-price">(HARIMAU JUGA DISEBUT KUCING BESAR)</p>
+            </div>        
+        </div>
+
+        <div class="room-item">
+            <img src="gambarunta.jpg" alt="image">
+            <div class="text">
+            <h3>UNTA</h3>
+            <p class="room-price">NAMA HEWAN :UNTA</p>
+            <p class="room-price">SUARA:
+                <audio class="audio" controls>
+                    <source src="suaraunta.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </p>
+            <p class="room-price">(UNTA ADALAH HEWAN YANG HIDUP DI GURUN)</p>
+            </div>        
+        </div>
+    </div>
+    <div class="room-list">
+        <div class="room-item">
+            <img src="gambartupai.jpg" alt="image">
+            <div class="text">
+            <h3>TUPAI</h3>
+            <p class="room-price">NAMA HEWAN :TUPAI</p>
+            <p class="room-price">SUARA:   
+                <audio class="audio" controls>
+                    <source src="suaratupai.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </p>
+            <p class="room-price">(TUPAI ADALAH HEWAN YANG PANDAI MELOMPAT DIPOHON)</p>
+            </div>        
+        </div>
+
+        <div class="room-item">
+            <img src="gambarkelinci.jpg" alt="image">
+            <div class="text">
+            <h3>KELINCI</h3>
+            <p class="room-price">NAMA HEWAN :KELINCI</p>
+            <p class="room-price">SUARA:
+                <audio class="audio" controls>
+                    <source src="suarakelinci.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </p>
+            <p class="room-price">(KELINCI ADALAH HEWAN YANG LUCU DAN SUKA WORTEL)</p>
+            </div>        
+        </div>
+    </div>
+  </div>
+  <footer>
+    <p class="footer">&copy;2024 TUGAS PKK.All right reserved</p>
+  </footer>  
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Noto+Sans+Math&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <title>menu</title>
+</head>
+<style>
+
+body {
+        margin: 0;
+        padding: 0;
+        background-image: url(bg2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        filter: brightness(1.0);
+}
+h1{
+    font-family: "Bungee Spice", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: green;
+    text-shadow: 2px 2px 4px black;
+    border-radius: 50px;
+    font-weight: bold;
+    color: black;
+}
+.home1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+
+}
+.room-item1, .room-item2, .room-item3 {
+            margin-left: 20px;
+            margin-right: 20px;
+            padding: 20px;
+            border-radius: 50px;
+            width: 100%; /* Change to full width on small screens */
+            max-width: 500px; /* Limit maximum width */
+            overflow: hidden; /* Prevent background color from extending outside */
+        }
+img {
+    max-width: 100%;
+    border-radius: 50px;
+}
+.zoom-in {
+        transition: transform 0.3s ease;
+    }
+
+    .zoom-in:hover {
+        transform: scale(1.1);
+    }
+
+footer {
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    padding: 1px 0 1px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+
+
+</style>
+<body>
+
+    <h1>PILIH SALAH SATU HABITAT HEWAN</h1>
+    <section class="home1">
+        <div class="room-item1">
+            <a href="file:///D:/PKK/darat/page-akhir.html">
+                <img src="DARAT.jpg" class="zoom-in" >
+            </a>
+        </div>
+
+        <div class="room-item2">
+            <a href="file:///D:/PKK/air/air.html">
+                <img src="AIR.jpg" class="zoom-in" >
+            </a>
+         </div>
+
+        <div class="room-item3">
+            <a href="file:///D:/PKK/terbang/terbang.html">
+                <img src="TERBANG.jpg" class="zoom-in">
+            </a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;2024 TUGAS PKK.All right reserved</p>
+    </footer>
+    
+</body>
+</html>
